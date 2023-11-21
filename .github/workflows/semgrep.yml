@@ -3,6 +3,7 @@ on:
     # run on pushes to master or release/*
     branches:
       - master
+      - main
       - release/*
   schedule:
   # random HH:MM to avoid a load spike on GitHub Actions at 00:00
